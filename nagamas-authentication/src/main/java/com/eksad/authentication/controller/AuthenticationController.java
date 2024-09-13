@@ -38,6 +38,7 @@ public class AuthenticationController {
 
     @PostMapping("/register")
     public ResponseEntity<GenericResponseDTO<UserLoginResponseDto>> register (
+//            sdaasd
             @RequestBody RegisterRequestDto request) throws Exception {
         return ResponseEntity.ok(authenticationService.register(request));
     }
