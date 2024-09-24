@@ -24,6 +24,7 @@ import java.util.concurrent.ThreadLocalRandom;
 @Service
 public class AuthenticationService {
 
+    //testing
     @Value("${mt.system.jwt.timeout}")
     private Long jwtTimeout;
 
